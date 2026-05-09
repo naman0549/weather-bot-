@@ -30,7 +30,7 @@ Built with:
 ## 🔹 Bot Online Check
 
 ```md
-![Bot Ready](screenshots/ready.png)
+![Bot Ready](ready.png)
 ```
 
 ---
@@ -38,7 +38,7 @@ Built with:
 ## 🔹 Weather Command Example
 
 ```md
-![Weather Command](screenshots/weather.png)
+![Weather Command](weather.png)
 ```
 
 ---
@@ -46,7 +46,7 @@ Built with:
 ## 🔹 Menu Command
 
 ```md
-![Menu Command](screenshots/menu.png)
+![Menu Command](menu.png)
 ```
 
 ---
