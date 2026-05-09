@@ -97,7 +97,7 @@ Get a free API key from:
 Then replace this in `index.js`:
 
 ```js
-const API_KEY = "YOUR_API_KEY";
+const OPENWEATHER_API_KEY  = "YOUR_OPENWEATHERMAP_API_KEY"; // 🔑 Replace this;
 ```
 
 ---
