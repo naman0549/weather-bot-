@@ -49,19 +49,6 @@ Bot replies:
 ☁ Condition: haze
 ```
 
----
-
-## 📂 Project Structure
-
-```bash
-whatsapp-weather-bot/
-│
-├── index.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── screenshot.png
-```
 
 ---
 
@@ -176,6 +163,6 @@ This project demonstrates:
 
 ## ⭐ Author
 
-Made by **Naman**
+Made by **naman0549**
 
 If you like this project, give it a ⭐ on GitHub.
