@@ -20,18 +20,38 @@ Built with:
 ✅ Error handling for invalid cities
 ✅ Simple single-file architecture (`index.js`)
 ✅ Beginner-friendly project structure
+✅ Real-time API integration
+✅ Persistent login using LocalAuth
 
 ---
 
-## 📸 Bot Screenshot
+# 📸 Bot Screenshots
 
-> Replace this image with your actual bot screenshot after uploading it.
+## 🔹 Bot Online Check
 
 ```md
-![Bot Screenshot](screenshot.png)
+![Bot Ready](screenshots/ready.png)
 ```
 
-Example:
+---
+
+## 🔹 Weather Command Example
+
+```md
+![Weather Command](screenshots/weather.png)
+```
+
+---
+
+## 🔹 Menu Command
+
+```md
+![Menu Command](screenshots/menu.png)
+```
+
+---
+
+## 💬 Example Usage
 
 User sends:
 
@@ -49,25 +69,28 @@ Bot replies:
 ☁ Condition: haze
 ```
 
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/naman0549/weather-bot-.git
+cd weather-bot-
+```
 
 ---
 
-## ⚙️ Installation
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/whatsapp-weather-bot.git
-cd whatsapp-weather-bot
-```
-
-### 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Install Required Packages
+---
+
+## 3️⃣ Install Required Packages
 
 ```bash
 npm install whatsapp-web.js qrcode-terminal axios
@@ -75,50 +98,75 @@ npm install whatsapp-web.js qrcode-terminal axios
 
 ---
 
-## 🔑 Setup OpenWeatherMap API
+# 🔑 Setup OpenWeatherMap API
 
 Get a free API key from:
 
-[OpenWeatherMap](https://openweathermap.org/api?utm_source=chatgpt.com)
+[OpenWeatherMap API](https://openweathermap.org/api?utm_source=chatgpt.com)
 
-Then replace this in `index.js`:
+Then replace this line inside `index.js`:
 
 ```js
-const OPENWEATHER_API_KEY  = "YOUR_OPENWEATHERMAP_API_KEY"; // 🔑 Replace this;
+const OPENWEATHER_API_KEY = "YOUR_OPENWEATHERMAP_API_KEY";
 ```
+
+with your actual API key.
 
 ---
 
-## ▶️ Run the Bot
+# ▶️ How To Run The Bot
+
+## Step 1 — Start the bot
 
 ```bash
 node index.js
 ```
 
+---
+
+## Step 2 — Scan QR Code
+
 A QR code will appear in the terminal.
 
-Open:
+Open WhatsApp on your phone:
 
-* WhatsApp
 * Settings
 * Linked Devices
 * Link a Device
 
-Scan the QR code.
+Now scan the QR code.
 
 ---
 
-## 💬 Available Commands
+## Step 3 — Test Commands
 
-| Command           | Description            |
-| ----------------- | ---------------------- |
-| `!weather <city>` | Get live weather       |
-| `!menu`           | Show available options |
-| `!ready`          | Check if bot is online |
+Send these commands in any WhatsApp chat:
+
+```bash
+!ready
+```
+
+```bash
+!menu
+```
+
+```bash
+!weather Mumbai
+```
 
 ---
 
-## 🧠 Technologies Used
+# 💬 Available Commands
+
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `!weather <city>` | Get live weather details |
+| `!menu`           | Show available commands  |
+| `!ready`          | Check bot status         |
+
+---
+
+# 🧠 Technologies Used
 
 * JavaScript
 * Node.js
@@ -129,26 +177,27 @@ Scan the QR code.
 
 ---
 
-## 🛠️ Future Improvements
+# 🛠️ Future Improvements
 
 * 5-day weather forecast
 * GPS weather support
-* Cloud deployment
+* Cloud deployment (Railway/Render)
 * Multi-language support
 * Wind speed & UV index
+* Better UI formatting
 
 ---
 
-## 📌 Limitations
+# 📌 Limitations
 
-* Requires WhatsApp linked device
-* PC/server must stay online
+* Requires linked WhatsApp device
+* Host PC/server must stay online
 * Free API has request limits
-* Session can expire sometimes
+* Session may expire occasionally
 
 ---
 
-## 📖 Learning Concepts
+# 📖 Learning Concepts
 
 This project demonstrates:
 
@@ -157,12 +206,18 @@ This project demonstrates:
 * Event-driven programming
 * WhatsApp automation
 * Error handling
-* Node.js basics
+* Node.js fundamentals
 
 ---
 
-## ⭐ Author
+# 🔗 GitHub Repository
 
-Made by **naman0549**
+[GitHub Repository](https://github.com/naman0549/weather-bot-?utm_source=chatgpt.com)
 
-If you like this project, give it a ⭐ on GitHub.
+---
+
+# ⭐ Author
+
+Made by **Naman** (`naman0549`)
+
+If you like this project, consider giving it a ⭐ on GitHub.
