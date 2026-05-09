@@ -29,25 +29,25 @@ Built with:
 
 ## 🔹 Bot Online Check
 
-```md
+
 ![Bot Ready](ready.png)
-```
+
 
 ---
 
 ## 🔹 Weather Command Example
 
-```md
+
 ![Weather Command](weather.png)
-```
+
 
 ---
 
 ## 🔹 Menu Command
 
-```md
+
 ![Menu Command](menu.png)
-```
+
 
 ---
 
