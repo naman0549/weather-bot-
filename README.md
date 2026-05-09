@@ -28,27 +28,15 @@ Built with:
 # 📸 Bot Screenshots
 
 ## 🔹 Bot Online Check
-
-
 ![Bot Ready](ready.png)
-
-
 ---
 
 ## 🔹 Weather Command Example
-
-
 ![Weather Command](weather.png)
-
-
 ---
 
 ## 🔹 Menu Command
-
-
 ![Menu Command](menu.png)
-
-
 ---
 
 ## 💬 Example Usage
